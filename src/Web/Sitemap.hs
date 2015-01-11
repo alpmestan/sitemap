@@ -2,7 +2,7 @@
 module Web.Sitemap
   (
   -- * A sitemap 'Entry', with lenses
-  , Entry(..)
+    Entry(..)
   , loc
   , lastmod
   , changefreq
