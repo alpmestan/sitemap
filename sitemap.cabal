@@ -1,5 +1,5 @@
 name:                sitemap
-version:             0.1
+version:             0.1.1
 synopsis:            Sitemap parser
 description:         Sitemap parser. See the "Web.Sitemap" module for an example.
 license:             BSD3
@@ -10,6 +10,11 @@ copyright:           2015 Alp Mestanogullari
 category:            Web
 build-type:          Simple
 cabal-version:       >=1.10
+homepage:            http://github.com/alpmestan/sitemap
+Bug-reports:         http://github.com/alpmestan/sitemap/issues
+source-repository head
+  type: git
+  location: http://github.com/alpmestan/sitemap.git
 
 library
   exposed-modules:     Web.Sitemap
