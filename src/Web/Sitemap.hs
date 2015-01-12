@@ -42,8 +42,7 @@ readDouble = either (const Nothing) (Just . fst) . double
 parseSitemap :: LT.Text -> [Entry]
 parseSitemap src =
   src ^.. html
-        . elements
-        . named (only "urlset")
+        . allNamed (only "urlset")
         . elements
         . named (only "url")
         . to entry

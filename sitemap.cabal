@@ -1,5 +1,5 @@
 name:                sitemap
-version:             0.1.1
+version:             0.1.2
 synopsis:            Sitemap parser
 description:         Sitemap parser. See the "Web.Sitemap" module for an example.
 license:             BSD3
